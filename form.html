@@ -8,7 +8,19 @@
 </head>
 <body>
     <form action="script.php" method="get">
-
+        <div id="divForm">
+            <h1>REGISTRAZIONE</h1>
+            <p><b><i>Inserisci codice fiscale:</i></b></p> 
+            <input type="text" name="cf" maxlength="16">
+            <p><b><i>Inserisci la tua eta:</i></b></p>
+            <input type="number" min="1" name="age" value="1">
+            <br>
+            <br>
+            <input type="submit" class="sendButton">
+            <br>
+            <br>
+            <a class="sendButton" href="./risultati.php">MOSTRA REGISTRAZIONI</a>
+        </div>
     </form>
 </body>
 </html>

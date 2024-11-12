@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+#divForm {
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 3vh;
+    padding: 50px;
+}
+
+#divScript {
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 3vh;
+    padding: 50px;
+}
+
+#divResult{
+    text-align: center;
+    border: 5px solid black;
+    border-radius: 3vh;
+    padding: 50px;
+}
+
+.sendButton{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 1vh;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+}
+
